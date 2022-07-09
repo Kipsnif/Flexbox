@@ -1,0 +1,219 @@
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Signika', sans-serif;*/
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: auto;
+    font-family: 'Signika', sans-serif;
+    color: #2E3138;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: bold;
+    background-color: #FBD1A2;
+    margin-bottom: 0;
+}
+
+/*Header*/
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    left: 0;
+}
+
+header h1 {
+    display: inline-flex;
+    font-size: 3rem;
+    margin: 0.25rem 0;
+    font-family: 'Permanent Marker', cursive;
+    color: #194e44;
+}
+
+header img {
+    display: inline-flex;
+    height: 3rem;
+    width: auto;
+}
+
+#left {
+    visibility: hidden;
+}
+
+
+/*Banner*/
+
+.banner {
+    margin-top: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Flexbox/resources/images/Banner1.jpg");
+    background-position: bottom;
+    height: 25rem;
+    width: 100%;
+    background-size: 100% 40rem;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    color: #FBD1A2;
+    font-weight: 900;
+    text-shadow: 3px 3px #2E3138;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+
+}
+
+/*Main*/
+/*Plants for sale*/
+
+.plants {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.plant {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+.plant img {
+    width: 90%;
+    height: 90%;
+    
+}
+
+.plant img:hover {
+    box-sizing: border-box;
+    border: #194e44 2px solid;
+}
+
+.plants p {
+    margin: 0.2rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+/*Tips*/
+
+.tips {
+    background-color: #194e44;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25rem;
+    width: 100%;
+}
+
+.tip {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20rem;
+    background-size: auto 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FBD1A2;
+}
+
+.tip:hover {
+    box-sizing: border-box;
+    border: #2E3138 2px solid;
+}
+
+.tip h4 {
+    background-color: #194e44;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+
+
+#water {
+    background-image: url("../Flexbox/resources/images/Watering.jpg");
+}
+
+#sun {
+    background-image: url("../Flexbox/resources/images/Front\ of\ window.jpg");
+}
+
+
+#ground {
+    background-image: url("../Flexbox/resources/images/Potting.jpg");
+}
+
+/*Staff*/
+
+.staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2E3138;
+    color: #FBD1A2;
+    padding: 3rem;
+    padding-top: 1rem;
+}
+
+.member {
+    width: 20%;
+    height: auto;
+}
+
+
+
+.member h2 {
+    font-weight: bold;
+    margin-top: 0.3rem;
+    background-color: #2E3138;
+}
+
+.member img {
+    height: 90%;
+    width: 90%;
+}
+
+.member img:hover {
+    box-sizing: border-box;
+    border: #FBD1A2 2px solid;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #2E3138;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 2px solid #FBD1A2;
+}
+
+footer h6 {
+    font-size: 1rem;
+    color: #FBD1A2;
+    font-weight: lighter;
+    margin-left: 2rem;
+}
